@@ -4,10 +4,6 @@
 
 As a marketing agency, Horiseon wants a codebase to follow current accessibility standards which will result in Horiseon's webpage being optimized for seach engines. Changes were made to the semeantic structure of the HTML and edits were made in the CSS. This page is available at: 
 
-
-Image:
-
-
 ## Installation
 
 N/A
@@ -25,3 +21,10 @@ N/A
 
 MIT License
 
+## Screenshots
+
+See images directory.
+
+## Link
+
+https://timothymichaelcook.github.io/challenge1-accessibility-cook/
