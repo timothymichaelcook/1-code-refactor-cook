@@ -37,4 +37,8 @@ MIT License
 ![Project Screenshot](./assets/images/screenshot1.png)
 ![Project Screenshot](./assets/images/screenshot2.png)
 
+## Contact
+Timothy Cook - timothy.michael.cook@gmail.com
+
+
 
