@@ -1,4 +1,4 @@
-# Challenge1 Accessibility Cook
+# Challenge1-Accessibility-Cook
 
 Project Page: [Project Page](https://timothymichaelcook.github.io/challenge1-accessibility-cook/)
 
@@ -9,11 +9,11 @@ Project Repo: [Github-pages](https://github.com/timothymichaelcook/challenge1-ac
 As a marketing agency, Horiseon wants a codebase to follow current accessibility standards which will result in Horiseon's webpage being optimized for search engines. Changes were made to the semeantic structure of the HTML and the styling of CSS selectors. Horiseon's webpage will also be better optimized for screen readers which will assist those with varying needs.
 
 ## User Story
-
+...
 - AS A marketing agency 
 - I WANT to follow current accessibilty standards
 - SO THAT I have an optimized webpape for search engines
-
+...
 
 ## Installation
 
