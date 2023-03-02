@@ -1,33 +1,34 @@
+/* THIS STYLESHEET ONLY HAS ELEMENT AND CLASS SELECTORS, NO ID SELECTORS */
 /* GENERAL STYLES */
-
+/* ELEMENT SELECTOR*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* ELEMENT SELECTOR */
 body {
     background-color: #d9dcd6;
 }
 
 /* HEADER */
-
+/* ELEMENT SELECTOR */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* ELEMENT SELECTOR */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* ELEMENT SELECTOR */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* ELEMENT SELECTOR */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,29 +36,29 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* ELEMENT SELECTOR */
 header nav ul {
     list-style-type: none;
 }
-
+/* ELEMENT SELECTOR */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /* TEXT STYLES */
-
+/* ELEMENT SELECTOR */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* ELEMENT SELECTOR */
 p {
     font-size: 16px;
 }
 
 /* HERO DIV WITH BACKGROUND IMAGE */
-
+/* CLASS SELECTOR */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -68,19 +69,19 @@ p {
 }
 
 /* FLOATS */
-
+/* CLASS SELECTOR */ 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* CLASS SELECTOR */ 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* MAIN */
-
+/* ELEMENT SELECTOR */ 
 main {
     width: 75%;
     display: inline-block;
@@ -88,7 +89,7 @@ main {
 }
 
 /* BENEFITS ASIDE */
-
+/* CLASS SELECTOR */ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,17 +100,17 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* CLASS SELECTOR */ 
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* CLASS SELECTOR */ 
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* CLASS SELECTOR */ 
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -117,7 +118,7 @@ main {
 }
 
 /* SERVICES SECTIONS */
-
+/* CLASS SELECTOR */ 
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -126,25 +127,25 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* CLASS SELECTOR */ 
 .service img {
     max-height: 200px;
 }
-
+/* CLASS SELECTOR */ 
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* FOOTER */
-
+/* ELEMENT SELECTOR */ 
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* ELEMENT SELECTOR */ 
 footer h2 {
     font-size: 20px;
 }
