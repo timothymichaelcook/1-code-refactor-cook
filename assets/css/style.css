@@ -1,47 +1,34 @@
-/* Wildcard element selector (all elements)*/
+/* GENERAL STYLES */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Body element selector, sets grey background*/
 body {
     background-color: #d9dcd6;
 }
 
-/* Anchor element selector, text color white*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/* HEADER */
 
-/* Paragraph element selector, sets font size*/
-p {
-    font-size: 16px;
-}
-
-/* Header class selector*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Header h1 class selector*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Header h1 class & seo class selector*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Header div class selector*/
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,18 +36,28 @@ p {
     font-size: 20px;
 }
 
-/* Header div ul class selector*/
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-/* Header div ul li class selector*/
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Hero image class selector*/
+/* TEXT STYLES */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HERO DIV WITH BACKGROUND IMAGE */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -70,27 +67,29 @@ p {
     background-position: center;
 }
 
-/* Float left class selector*/
+/* FLOATS */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Float right class selector*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Main content class selector*/
-.main {
+/* MAIN */
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Aside content class selector*/
-.aside {
+/* BENEFITS ASIDE */
+
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -101,27 +100,25 @@ p {
     background-color: #2589bd;
 }
 
-/* Benefit lead, brand and cost class selector*/
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Benefit lead, brand and cost h3 class selector*/
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Benefit lead, brand and cost image class selector*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Search engine optimization, management and sm marketing class selector*/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* SERVICES SECTIONS */
+
+.service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -130,26 +127,24 @@ p {
     color: #ffffff;
 }
 
-/* Search engine optimization, management and sm marketing image class selector*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.service img {
     max-height: 200px;
 }
 
-/* Search engine optimization, management and sm marketing h2 class selector*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+.service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Footer class selector*/
-.footer {
+/* FOOTER */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/* Footer h2 class selector*/
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
